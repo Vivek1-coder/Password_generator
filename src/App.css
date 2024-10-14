@@ -1,0 +1,15 @@
+.dynamic-button {
+  background-color: lightblue;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.dynamic-button.clicked {
+  background-color: coral;
+  font-size: 20px;
+  padding: 15px 25px;
+}
